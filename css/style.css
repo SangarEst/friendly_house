@@ -1,0 +1,127 @@
+@import "fonts.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	font-family: "HelveticaNeueCyr", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #282626;
+	background-color: #f2f0f1;
+}
+
+.container {
+	max-width: 1410px;
+	margin: 0 auto;
+	padding: 0 130px;
+}
+
+.about {
+	padding: 100px 0 100px;
+}
+
+
+
+.about__box {
+	width: 450px;
+}
+
+.about__title {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	margin-bottom: 33px;
+	font-weight: 400;
+}
+
+.about__text:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.help {
+	padding: 100px 0 179px;
+}
+
+.help__list {
+	padding-left: 31px;
+}
+
+.help__title {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 60px;
+	color: #ff8a00;
+	text-align: center;
+	margin-bottom: 113px;
+}
+
+.list-help__item {
+	margin-bottom: 140px;
+	padding-left: 70px;
+}
+
+.list-help__item::marker {
+	content: counter(list-item);
+	font-family: "Comfortaa", sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 400;
+	color: #ff8a00;
+}
+
+
+.list-help__item-many {
+	width: 450px;
+}
+
+.list-help__item-volunteer {
+	width: 640px;
+}
+
+.list-help__item-curator {
+	width: 540px;
+}
+
+.list-help__title {
+	display: inline-block;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #282626;
+
+	vertical-align: top;
+}
+
+
+
+
+.list-help__title-many {
+	margin-bottom: 36px;
+}
+
+.list-help__title-volunteer {
+	margin-bottom: 80px;
+}
+
+.list-help__title-curator {
+	margin-bottom: 30px;
+}
+
+
+.list-help__text {}
+
+.list-help__text:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.list-help__text_font-weight_bold {
+	font-weight: 500;
+
+}
